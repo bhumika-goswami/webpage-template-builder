@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load default configuration
     const defaultConfig = {
         // Navbar
-        SITE_NAME: 'My Awesome Website',
+        SITE_NAME: 'Bhumika Goswami',
         NAV_ITEMS: [
             { label: 'Home', url: '#' },
             { label: 'About', url: '#about' },
@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
 
         // Hero Section
-        HERO_TITLE: 'Welcome to Your Amazing Website',
-        HERO_SUBTITLE: 'Create stunning, reusable webpage templates with ease',
-        CTA_BUTTON: 'Get Started',
+        HERO_TITLE: 'Welcome to this Website',
+        HERO_SUBTITLE: 'Create stunning, reusable webpages with ease',
+        CTA_BUTTON: 'Learn More',
         PRIMARY_COLOR: '#007bff',
         SECONDARY_COLOR: '#6c757d',
 
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // About Section
         ABOUT_TITLE: 'About Us',
-        ABOUT_DESCRIPTION: 'We are a team dedicated to creating beautiful, reusable, and easy-to-customize webpage templates. Our templates are designed with modern web standards and best practices in mind, making it simple to build professional websites in minutes.',
+        ABOUT_DESCRIPTION: 'I am a passionate web developer creating amazing websites for businesses. With 5 years of experience, I help companies establish their online presence with beautiful, functional websites',
         ABOUT_STATS: [
             { number: '500+', label: 'Happy Clients' },
             { number: '1000+', label: 'Projects Completed' },
