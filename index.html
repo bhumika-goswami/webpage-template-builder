@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Template Builder</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/templates.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">{{SITE_NAME}}</div>
+            <ul class="nav-links">
+                {{NAV_ITEMS}}
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" style="background: linear-gradient(135deg, {{PRIMARY_COLOR}} 0%, {{SECONDARY_COLOR}} 100%);">
+            <div class="hero-content">
+                <h1>{{HERO_TITLE}}</h1>
+                <p>{{HERO_SUBTITLE}}</p>
+                <button class="btn btn-primary">{{CTA_BUTTON}}</button>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>{{FEATURES_TITLE}}</h2>
+            <div class="features-grid">
+                {{FEATURES_GRID}}
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="about-content">
+                <h2>{{ABOUT_TITLE}}</h2>
+                <p>{{ABOUT_DESCRIPTION}}</p>
+                <div class="about-stats">
+                    {{ABOUT_STATS}}
+                </div>
+            </div>
+        </section>
+
+        <!-- Services/Products Section -->
+        <section class="services">
+            <h2>{{SERVICES_TITLE}}</h2>
+            <div class="services-grid">
+                {{SERVICES_GRID}}
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>{{CONTACT_TITLE}}</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="{{FORM_NAME}}" required>
+                <input type="email" placeholder="{{FORM_EMAIL}}" required>
+                <textarea placeholder="{{FORM_MESSAGE}}" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">{{FORM_SUBMIT}}</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>{{COMPANY_NAME}}</h4>
+                    <p>{{FOOTER_DESCRIPTION}}</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        {{FOOTER_LINKS}}
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        {{SOCIAL_LINKS}}
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 {{COMPANY_NAME}}. All rights reserved. | {{FOOTER_TEXT}}</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/template-manager.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
