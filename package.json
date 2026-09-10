@@ -1,0 +1,81 @@
+{
+  "name": "Webpage Template Builder",
+  "version": "1.0.0",
+  "description": "A reusable and editable webpage template system for creating multiple website variations",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": "https://github.com/bhumika-goswami/webpage-template-builder",
+  "keywords": [
+    "template",
+    "webpage",
+    "website",
+    "reusable",
+    "customizable",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "files": [
+    "index.html",
+    "css/",
+    "js/",
+    "config/",
+    "examples/",
+    "README.md",
+    "QUICK_START.md"
+  ],
+  "documentation": {
+    "readme": "README.md",
+    "quickStart": "QUICK_START.md",
+    "configTemplate": "CONFIG_TEMPLATE.md",
+    "examples": "examples/README.md"
+  },
+  "features": [
+    "Reusable template system",
+    "Easy content editing with variables",
+    "Multiple color schemes",
+    "Responsive design",
+    "Local storage for saving templates",
+    "Export/import configurations",
+    "No build process required",
+    "Works in any modern browser"
+  ],
+  "sections": [
+    "Navigation",
+    "Hero",
+    "Features",
+    "About",
+    "Services",
+    "Contact",
+    "Footer"
+  ],
+  "requirements": [
+    "Modern web browser (Chrome, Firefox, Safari, Edge)",
+    "Text editor for editing files",
+    "No server required - works locally"
+  ],
+  "howToUse": [
+    "1. Open index.html in a web browser",
+    "2. Edit js/app.js to customize content",
+    "3. Modify PRIMARY_COLOR and SECONDARY_COLOR for different color schemes",
+    "4. Edit array values (NAV_ITEMS, FEATURES_GRID, etc.) to customize sections",
+    "5. Refresh browser to see changes",
+    "6. Use saveCustomTemplate() to save versions",
+    "7. Use exportTemplateConfig() to backup configuration"
+  ],
+  "browser_support": {
+    "chrome": "latest",
+    "firefox": "latest",
+    "safari": "latest",
+    "edge": "latest",
+    "mobile_browsers": "supported"
+  },
+  "customization_level": "Beginner to Intermediate",
+  "estimated_setup_time": "5 minutes",
+  "templates_included": [
+    "Default Business Template",
+    "Portfolio Template (example)",
+    "Agency Template (example)",
+    "E-commerce Template (example)"
+  ]
+}
