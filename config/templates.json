@@ -1,0 +1,56 @@
+{
+  "templates": {
+    "default": {
+      "name": "Default Template",
+      "description": "A versatile template suitable for any business",
+      "primaryColor": "#007bff",
+      "secondaryColor": "#6c757d"
+    },
+    "portfolio": {
+      "name": "Portfolio Template",
+      "description": "Perfect for showcasing your work and projects",
+      "primaryColor": "#667eea",
+      "secondaryColor": "#764ba2"
+    },
+    "agency": {
+      "name": "Agency Template",
+      "description": "Ideal for creative agencies and studios",
+      "primaryColor": "#ff6b35",
+      "secondaryColor": "#f7931e"
+    },
+    "tech": {
+      "name": "Tech Startup Template",
+      "description": "Modern template for tech companies and startups",
+      "primaryColor": "#1a202c",
+      "secondaryColor": "#2d3748"
+    },
+    "ecommerce": {
+      "name": "E-Commerce Template",
+      "description": "Designed for online stores and marketplaces",
+      "primaryColor": "#2ecc71",
+      "secondaryColor": "#27ae60"
+    }
+  },
+  "colorSchemes": {
+    "ocean": {
+      "primary": "#0066cc",
+      "secondary": "#00b3ff"
+    },
+    "sunset": {
+      "primary": "#ff6b35",
+      "secondary": "#f7931e"
+    },
+    "forest": {
+      "primary": "#2d5016",
+      "secondary": "#6b8e23"
+    },
+    "midnight": {
+      "primary": "#1a1a1a",
+      "secondary": "#333333"
+    },
+    "berry": {
+      "primary": "#c2185b",
+      "secondary": "#e91e63"
+    }
+  }
+}
