@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage Template Builder</title>
+    <title>{{SITE_NAME}} - Webpage Template Builder</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/templates.css">
 </head>
@@ -27,7 +27,7 @@
         </section>
 
         <!-- Features Section -->
-        <section class="features">
+        <section class="features" id="features">
             <h2>{{FEATURES_TITLE}}</h2>
             <div class="features-grid">
                 {{FEATURES_GRID}}
@@ -35,7 +35,7 @@
         </section>
 
         <!-- About Section -->
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-content">
                 <h2>{{ABOUT_TITLE}}</h2>
                 <p>{{ABOUT_DESCRIPTION}}</p>
@@ -46,7 +46,7 @@
         </section>
 
         <!-- Services/Products Section -->
-        <section class="services">
+        <section class="services" id="services">
             <h2>{{SERVICES_TITLE}}</h2>
             <div class="services-grid">
                 {{SERVICES_GRID}}
@@ -54,7 +54,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <h2>{{CONTACT_TITLE}}</h2>
             <form class="contact-form" id="contactForm">
                 <input type="text" placeholder="{{FORM_NAME}}" required>
